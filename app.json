@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package" : "com.Egniol.FirstYouTubeApp",
+      "package": "com.Egniol.FirstYouTubeApp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -26,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/fav.webp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "815cd0ad-6b7c-408b-b81c-976acea3aaee"
+      }
     }
   }
 }

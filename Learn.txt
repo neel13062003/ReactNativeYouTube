@@ -28,4 +28,8 @@ inside android add package name
 above might not work
 latest->
 npm install -g eas-cli
-eas build -p android & eas build -p ios
+eas build -p android  --profile preview   & eas build -p ios
+
+
+eas.json -> preview inside
+npx epx o start , when apk is in your phone

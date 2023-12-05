@@ -25,11 +25,11 @@ inside android add package name
     npx expo build:android 
     or yarn expo build:android
 }
-above might not work
-latest->
+above might not work , latest->
+
 npm install -g eas-cli
 eas build -p android  --profile preview   & eas build -p ios
 
 
 eas.json -> preview inside
-npx epx o start , when apk is in your phone
+npx epx o start , when apk is in your phone { but install from expo then not require}

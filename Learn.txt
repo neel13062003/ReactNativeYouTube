@@ -1,0 +1,31 @@
+{We are using Expo Cli because no need android mobile}
+-> in cmd
+expo init
+
+->type app name
+myapp-toddo
+
+->chhose
+simple template
+
+-> cd/ path 
+
+-> npm start
+
+-> scan mobile app in expo see changes in mobile expo app
+
+-> In app.json 
+inside android add package name
+"package" : "com.Egniol.FirstYouTubeApp" 
+
+-> in terminal execute command
+{ 
+    expo build:android , make sure ->npm install -g expo-cli
+
+    npx expo build:android 
+    or yarn expo build:android
+}
+above might not work
+latest->
+npm install -g eas-cli
+eas build -p android & eas build -p ios

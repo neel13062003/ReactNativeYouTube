@@ -18,13 +18,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package" : "com.Egniol.FirstYouTubeApp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/fav.webp"
     }
   }
 }
